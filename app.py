@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import os
-from procesador_simce import generar_pdf_reporte_curso
+# from procesador_simce import generar_pdf_reporte_curso
 
 st.set_page_config(page_title="Reporte Consolidado SIMCE - Liceo EPS", page_icon="📊", layout="wide")
 
