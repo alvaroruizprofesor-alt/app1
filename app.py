@@ -22,11 +22,11 @@ st.title("📊 Generador de Reporte Ejecutivo Consolidado por Curso")
 st.markdown("Herramienta orientada a la toma de decisiones de UTP y Dirección mediante el análisis panorámico del ensayo.")
 
 # Selector de Pruebas Precargadas
-st.subheader("1. Selección de Instrumento Evaluativo")
-prueba_seleccionada = st.selectbox(
-    "Seleccione la prueba SIMCE correspondiente:",
-    ["Historia y Ciencias Sociales - 8° Básico", "Lenguaje y Comunicación - 8° Básico", "Matemática - 8° Básico"]
-)
+# st.subheader("1. Selección de Instrumento Evaluativo")
+# prueba_seleccionada = st.selectbox(
+#    "Seleccione la prueba SIMCE correspondiente:",
+#    ["Historia y Ciencias Sociales - 8° Básico", "Lenguaje y Comunicación - 8° Básico", "Matemática - 8° Básico"]
+#)
 
 st.markdown("---")
 st.subheader("2. Carga de Archivos del Ensayo")
