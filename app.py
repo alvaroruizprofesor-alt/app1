@@ -3,7 +3,7 @@ import pandas as pd
 import os
 from procesador_simce import generar_pdf_reporte_curso
 
-st.set_page_config(page_title="Reporte Consolidado SIMCE - Liceo EPS", page_icon="📊", layout="wide")
+st.set_page_config(page_title="Reporte Consolidado SIMCE - Colegio DEMO", page_icon="📊", layout="wide")
 
 # --- CONTADOR DE CONSULTAS DIARIAS ---
 if 'contador_consultas' not in st.session_state:
@@ -11,7 +11,7 @@ if 'contador_consultas' not in st.session_state:
 
 # --- BARRA LATERAL: CONFIGURACIÓN E INSTITUCIONALIDAD ---
 st.sidebar.title("🏫 Panel Institucional")
-st.sidebar.info("Liceo Eugenio Pereira Salas\n\nMódulo Consolidado por Curso (UTP/Dirección)")
+st.sidebar.info("Colegio DEMO\n\nMódulo Consolidado por Curso (UTP/Dirección)")
 
 st.sidebar.markdown("---")
 st.sidebar.subheader("📈 Control de Procesamiento")
