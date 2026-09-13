@@ -14,14 +14,8 @@ st.sidebar.title("🏫 Panel Institucional")
 st.sidebar.info("Liceo Eugenio Pereira Salas\n\nMódulo Consolidado por Curso (UTP/Dirección)")
 
 st.sidebar.markdown("---")
-st.sidebar.subheader("📈 Uso Diario de API")
-st.sidebar.metric(label="Informes generados hoy", value=st.session_state.contador_consultas, delta="Límite: 20 sugerido")
-
-st.sidebar.markdown("---")
-if "GEMINI_API_KEY" in st.secrets:
-    st.sidebar.success("🔒 API Key Institucional Activa")
-else:
-    st.sidebar.warning("⚠️ Falta configurar `GEMINI_API_KEY` en los Secrets de Streamlit.")
+st.sidebar.subheader("📈 Control de Procesamiento")
+st.sidebar.metric(label="Informes generados hoy", value=st.session_state.contador_consultas)
 
 # --- CUERPO PRINCIPAL ---
 st.title("📊 Generador de Reporte Ejecutivo Consolidado por Curso")
