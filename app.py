@@ -11,7 +11,7 @@ if 'contador_consultas' not in st.session_state:
 
 # --- BARRA LATERAL: CONFIGURACIÓN E INSTITUCIONALIDAD ---
 st.sidebar.title("🏫 Panel Institucional")
-st.sidebar.info("Liceo Eugenio Pereira Salas\n\nMódulo Consolidado por Curso (UTP/Dirección)")
+st.sidebar.info("COLEGIO DEMO \n\nMódulo Consolidado por Curso (UTP/Dirección)")
 
 st.sidebar.markdown("---")
 st.sidebar.subheader("📈 Control de Procesamiento")
