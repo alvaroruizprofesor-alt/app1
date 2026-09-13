@@ -4,7 +4,7 @@ import numpy as np
 import io
 import os
 # from google import genai
-import reportlab
+# import reportlab
 
 from reportlab.lib.pagesizes import letter
 from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Table, TableStyle, PageBreak, KeepTogether
